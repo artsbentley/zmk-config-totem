@@ -132,10 +132,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp NUMBER_1           &kp NUMBER_2             &kp NUMBER_3       &kp NUMBER_4     &kp NUMBER_5    &kp NUMBER_6              &kp N7     &kp N8        &kp N9            &kp N0
-            &kp F5                 &kp F4                   &kp F3             &kp F2           &kp F1          &kp LEFT                  &kp DOWN   &kp UP_ARROW  &kp RIGHT         &kp KP_MINUS
-&bt BT_NXT  &mt LEFT_SHIFT PERIOD  &mt LEFT_COMMAND K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LPAR        &kp RPAR                  &kp KP_N1  &kp KP_N2     &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans
-                                                            &trans             &trans           &trans          &mt LEFT_SHIFT BACKSPACE  &trans     &trans
+            &kp NUMBER_1                     &kp NUMBER_2                       &kp NUMBER_3       &kp NUMBER_4     &kp NUMBER_5    &kp NUMBER_6              &kp N7     &kp N8        &kp N9            &kp N0
+            &kp F5                           &kp F4                             &kp F3             &kp F2           &kp F1          &kp LEFT                  &kp DOWN   &kp UP_ARROW  &kp RIGHT         &kp KP_MINUS
+&bt BT_NXT  &mt LEFT_SHIFT C_BRIGHTNESS_DEC  &mt LEFT_COMMAND C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE      &kp RPAR                  &kp KP_N1  &kp KP_N2     &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans
+                                                                                &trans             &trans           &trans          &mt LEFT_SHIFT BACKSPACE  &trans     &trans
             >;
         };
 
