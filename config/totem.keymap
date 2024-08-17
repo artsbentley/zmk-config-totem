@@ -210,10 +210,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp TAB       &kp I         &kp LC(LALT)  &kp O         &kp LC(F20)    &none         &none   &none   &none   &none
-       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5         &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0
-&kp J  &kp LSHFT     &kp LC(C)     &kp BSPC      &kp LC(V)     &kp LC(F19)    &none         &none   &none   &none   &none   &none
-                                   &trans        &kp LC(F14)   &kp LC(F13)    &none         &none   &none
+       &kp TAB       &kp I         &kp LC(LALT)  &kp O         &kp LC(F20)    &bt BT_SEL 0  &bt BT_SEL 1  &none   &none   &none
+       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5         &kp NUMBER_6  &kp N7        &kp N8  &kp N9  &kp N0
+&kp J  &kp LSHFT     &kp LC(C)     &kp BSPC      &kp LC(V)     &kp LC(F19)    &none         &none         &none   &none   &none   &none
+                                   &trans        &kp LC(F14)   &kp LC(F13)    &none         &none         &none
             >;
         };
 
@@ -236,10 +236,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp LA(Q)         &kp LA(W)         &kp LA(F)         &kp LA(P)         &kp LA(B)      &bt BT_SEL 0    &bt BT_SEL 1   &bt BT_CLR_ALL  &out OUT_BLE   &out OUT_USB
-        &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(N5)     &kp LA(M)       &kp BACKSPACE  &kp BACKSPACE   &kp LA(I)      &kp F11
-&trans  &kp LA(Z)         &kp LA(X)         &kp LA(C)         &kp LA(D)         &kp LA(V)      &kp LA(K)       &kp LA(H)      &kp LA(PERIOD)  &kp LA(COMMA)  &kp F10       &bt BT_CLR
-                                            &trans            &kp LC(F12)       &kp LC(F11)    &kp LEFT_SHIFT  &trans         &trans
+        &kp LA(Q)  &kp LA(W)  &kp LA(F)  &kp LA(P)    &kp LA(B)      &kp LA(J)       &kp LA(L)  &kp LA(U)       &kp LA(Y)      &trans
+        &kp LA(A)  &kp LA(R)  &kp LA(S)  &kp LA(T)    &kp LA(G)      &kp LA(M)       &kp LA(N)  &kp LA(E)       &kp LA(I)      &kp LA(O)
+&trans  &kp LA(Z)  &kp LA(X)  &kp LA(C)  &kp LA(D)    &kp LA(V)      &kp LA(K)       &kp LA(H)  &kp LA(PERIOD)  &kp LA(COMMA)  &kp F10    &trans
+                              &trans     &kp LC(F12)  &kp LC(F11)    &kp LEFT_SHIFT  &trans     &trans
             >;
         };
 
