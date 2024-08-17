@@ -39,7 +39,7 @@
             layers = <0 2>;
         };
 
-        combo_tvp {
+        tab {
             key-positions = <2 1>;
             bindings = <&kp TAB>;
             layers = <0>;
@@ -49,11 +49,6 @@
             bindings = <&kp LA(BACKSPACE)>;
             key-positions = <7 8>;
             layers = <0>;
-        };
-
-        CTRL {
-            bindings = <&kp LCTRL>;
-            key-positions = <18 19>;
         };
 
         control {
